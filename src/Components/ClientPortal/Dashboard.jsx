@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import ClientOverView from "./ClientOverView";
+import NotificationArea from "./NotificationArea";
 
 const Dashboard = () => {
   return (
@@ -34,6 +35,7 @@ const Dashboard = () => {
       <Separator className="my-5 bg-gray-200" />
       <div className="grid grid-cols-4 gap-4">
         <ClientOverView />
+        <NotificationArea />
       </div>
     </div>
   );

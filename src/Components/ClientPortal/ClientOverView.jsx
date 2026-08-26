@@ -5,10 +5,13 @@ import { AiFillEdit } from "react-icons/ai";
 
 const ClientOverView = () => {
   return (
-    <Card className="w-full col-span-3 bg-white border" variant="secondary">
+    <Card
+      className="w-full col-span-3 bg-white border p-10"
+      variant="secondary"
+    >
       <Card.Header>
         <Card.Title className="flex justify-between items-center mb-5">
-          <span className="text-lg">Client Overview</span>
+          <span className="text-xl">Client Overview</span>
           <AiFillEdit size={25} color="green" />
         </Card.Title>
         <div className="flex items-start gap-4">
@@ -16,8 +19,8 @@ const ClientOverView = () => {
             <Image
               src="/profile.webp"
               alt="Client"
-              width={300}
-              height={300}
+              width={500}
+              height={500}
               objectFit="cover"
               className="rounded-lg"
             />

@@ -6,7 +6,7 @@ import { RxDashboard } from "react-icons/rx";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col w-72 min-h-screen p-4 bg-[#0F172A] ">
+    <div className="flex flex-col w-80 min-h-screen p-4 bg-[#0F172A] ">
       <div className="flex items-center gap-3 text-white">
         <div>
           <Image src="/logo.jpg" alt="Logo" width={50} height={50} />
