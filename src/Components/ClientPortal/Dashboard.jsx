@@ -4,6 +4,7 @@ import React from "react";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import ClientOverView from "./ClientOverView";
 import NotificationArea from "./NotificationArea";
+import ProjectStatus from "./ProjectStatus";
 
 const Dashboard = () => {
   return (
@@ -36,6 +37,7 @@ const Dashboard = () => {
       <div className="grid grid-cols-4 gap-4">
         <ClientOverView />
         <NotificationArea />
+        <ProjectStatus />
       </div>
     </div>
   );
