@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
       <Separator className="my-5 bg-gray-500" />
       <h3 className="text-lg text-white bg-blue-600 p-2 rounded-md flex items-center gap-2">
-        <MdDashboard />
+        <MdDashboard size={25} />
         Dashboard
       </h3>
       <div className="flex flex-col items-start mt-5 space-y-5 flex-grow"></div>
