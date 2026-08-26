@@ -5,6 +5,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import ClientOverView from "./ClientOverView";
 import NotificationArea from "./NotificationArea";
 import ProjectStatus from "./ProjectStatus";
+import TaskProgress from "./TaskProgress";
 
 const Dashboard = () => {
   return (
@@ -38,6 +39,7 @@ const Dashboard = () => {
         <ClientOverView />
         <NotificationArea />
         <ProjectStatus />
+        <TaskProgress />
       </div>
     </div>
   );

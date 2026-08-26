@@ -4,7 +4,7 @@ import React from "react";
 
 const ProjectStatus = () => {
   return (
-    <div className=" col-span-2">
+    <div className=" col-span-2 row-span-4">
       <Card className="w-full border bg-white" variant="secondary">
         <Card.Header>
           <Card.Title className="flex justify-between items-center">
