@@ -4,8 +4,8 @@ import React from "react";
 
 const ProjectStatus = () => {
   return (
-    <div className=" col-span-2 row-span-4">
-      <Card className="w-full border bg-white" variant="secondary">
+    <div className="max-sm:col-span-4 col-span-2 max-sm:row-span-1 row-span-4 h-full">
+      <Card className="w-full h-full border bg-white" variant="secondary">
         <Card.Header>
           <Card.Title className="flex justify-between items-center">
             <span className="font-semibold text-gray-600 text-[16px]">
@@ -72,7 +72,7 @@ const ProjectStatus = () => {
                 <ProgressBar
                   aria-label="Progress"
                   className="w-full"
-                  value={100}
+                  value={60}
                 >
                   <Label>Progress</Label>
                   <ProgressBar.Output />

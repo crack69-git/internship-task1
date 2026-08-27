@@ -9,12 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "'": "file:mui/lab/Timeline'",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@heroui/react": "^3.2.4",
     "@heroui/styles": "^3.2.4",
+    "@mui/lab": "^9.0.0-beta.8",
+    "@mui/material": "^9.3.1",
     "next": "16.3.3",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-icons": "^5.7.0"
+    "react-icons": "^5.7.0",
+    "recharts": "^3.10.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
