@@ -23,7 +23,7 @@ const ClientOverView = () => {
               width={500}
               height={500}
               objectFit="cover"
-              className="rounded-lg max-lg:w-[200px] max-lg:h-[200px] w-[300px] h-[250px]"
+              className="rounded-lg max-lg:w-[200px] max-lg:h-[200px] w-[300px] h-auto"
             />
           </div>
           <div className=" col-span-2 flex flex-col gap-2">

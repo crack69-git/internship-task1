@@ -52,7 +52,7 @@ const Sidebar = () => {
                 <div className="flex flex-col items-startmt-5  flex-grow">
                   <Link
                     href="#"
-                    className="text-lg text-white bg-blue-600 w-full p-2 rounded-md flex items-center gap-2"
+                    className="text-[16px] text-white bg-blue-600 w-full p-2 rounded-md flex items-center gap-2"
                   >
                     <MdDashboard size={25} />
                     Dashboard
