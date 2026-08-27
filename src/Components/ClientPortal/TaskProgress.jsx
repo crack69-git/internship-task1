@@ -26,7 +26,10 @@ const TaskProgress = () => {
           <Checkbox.Control>
             <Checkbox.Indicator />
           </Checkbox.Control>
-          <span className="text-lg text-gray-600"> Define Web Structure</span>
+          <span className="text-[16px] text-gray-600">
+            {" "}
+            Define Web Structure
+          </span>
         </Checkbox.Content>
       </Checkbox>
       <Checkbox value="Config">
@@ -34,7 +37,9 @@ const TaskProgress = () => {
           <Checkbox.Control>
             <Checkbox.Indicator />
           </Checkbox.Control>
-          <span className="text-lg text-gray-600">Setup Tailwind Config.</span>
+          <span className="text-[16px] text-gray-600">
+            Setup Tailwind Config.
+          </span>
         </Checkbox.Content>
       </Checkbox>
       <Checkbox value="Build Desktop and Mobile Layouts">
@@ -42,7 +47,7 @@ const TaskProgress = () => {
           <Checkbox.Control>
             <Checkbox.Indicator />
           </Checkbox.Control>
-          <span className="text-lg text-gray-600">
+          <span className="text-[16px] text-gray-600">
             Build Desktop and Mobile Layouts
           </span>
         </Checkbox.Content>
@@ -52,7 +57,7 @@ const TaskProgress = () => {
           <Checkbox.Control>
             <Checkbox.Indicator />
           </Checkbox.Control>
-          <span className="text-lg text-gray-600">
+          <span className="text-[16px] text-gray-600">
             Implement Mobile Navigation
           </span>
         </Checkbox.Content>
