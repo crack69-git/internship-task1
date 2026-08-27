@@ -1,9 +1,9 @@
 "use client";
-import { Card, Chip, Separator } from "@heroui/react";
+import { Card, Separator } from "@heroui/react";
 import Link from "next/link";
 import React from "react";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem, { timelineItemClasses } from "@mui/lab/TimelineItem";
+import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
@@ -22,17 +22,36 @@ const RecentActivities = () => {
             </Link>
           </Card.Title>
           <Separator className="my-2" />
-          <div className="text-start flex items-center justify-start gap-2">
+          <div className="w-full overflow-hidden text-start">
             <Timeline
               position="right"
               sx={{
+                width: "100%",
                 margin: 0,
                 padding: 0,
-                alignItems: "flex-start",
-                [`& .${timelineItemClasses.root}:before`]: {
-                  flex: 0,
-                  padding: 0,
-                  alignItems: "flex-start",
+
+                // Force every activity to have the same width
+                "& .MuiTimelineItem-root": {
+                  width: "100%",
+                  minHeight: "65px",
+                },
+
+                // Remove MUI's invisible opposite-content space
+                "& .MuiTimelineItem-root::before": {
+                  display: "none",
+                },
+
+                // Control text spacing
+                "& .MuiTimelineContent-root": {
+                  minWidth: 0,
+                  flex: 1,
+                  padding: "4px 8px 10px 12px",
+                  overflowWrap: "anywhere",
+                },
+
+                // Control dot spacing
+                "& .MuiTimelineDot-root": {
+                  margin: "6px 0",
                 },
               }}
             >
